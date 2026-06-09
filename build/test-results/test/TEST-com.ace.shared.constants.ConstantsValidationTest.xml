@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ace.shared.constants.ConstantsValidationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-06-09T02:13:15.838Z" hostname="LAPTOP-6LQPP2A5" time="0.083">
+  <properties/>
+  <testcase name="should have valid block duration constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.054"/>
+  <testcase name="should have valid auth token TTLs()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.001"/>
+  <testcase name="should have valid retry constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.002"/>
+  <testcase name="should have valid data layer paths()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.007"/>
+  <testcase name="should have valid API endpoints()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.001"/>
+  <testcase name="should have valid history constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.0"/>
+  <testcase name="should have valid streak constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.0"/>
+  <testcase name="should have valid ranking constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

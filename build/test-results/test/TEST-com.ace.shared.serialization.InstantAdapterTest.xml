@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ace.shared.serialization.InstantAdapterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-06-09T02:13:16.001Z" hostname="LAPTOP-6LQPP2A5" time="0.007">
+  <properties/>
+  <testcase name="should handle null Instant()" classname="com.ace.shared.serialization.InstantAdapterTest" time="0.001"/>
+  <testcase name="should deserialize epoch millis to Instant()" classname="com.ace.shared.serialization.InstantAdapterTest" time="0.001"/>
+  <testcase name="should serialize Instant to epoch millis()" classname="com.ace.shared.serialization.InstantAdapterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
