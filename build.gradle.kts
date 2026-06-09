@@ -42,9 +42,7 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
-    filter {
-        isFailOnNoMatchingTests = false
-    }
+    
 }
 
 // ─── Kotlin 2.2+ compilerOptions DSL ───
