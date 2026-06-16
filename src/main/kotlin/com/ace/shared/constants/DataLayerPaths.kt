@@ -11,6 +11,8 @@ object DataLayerPaths {
     const val SESSION_STATUS_PREFIX = "/ace/session/"
     const val COMMAND = "/ace/command"
     const val INITIAL_SYNC = "/ace/initial_sync"
+    const val START_COMMAND = "START"
+const val STOP_COMMAND = "STOP"
 
     fun sessionStatusPath(sessionId: String): String =
         "$SESSION_STATUS_PREFIX$sessionId/status"
