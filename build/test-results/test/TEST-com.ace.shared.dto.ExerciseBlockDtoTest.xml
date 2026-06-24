@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ace.shared.dto.ExerciseBlockDtoTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-06-09T02:13:15.926Z" hostname="LAPTOP-6LQPP2A5" time="0.051">
+<testsuite name="com.ace.shared.dto.ExerciseBlockDtoTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-06-24T00:36:26" hostname="LAPTOP-6LQPP2A5" time="0.044">
   <properties/>
-  <testcase name="should round-trip ExerciseBlockDto through Gson()" classname="com.ace.shared.dto.ExerciseBlockDtoTest" time="0.027"/>
-  <testcase name="should deserialize ExerciseBlockDto from JSON()" classname="com.ace.shared.dto.ExerciseBlockDtoTest" time="0.001"/>
+  <testcase name="should round-trip ExerciseBlockDto through Gson()" classname="com.ace.shared.dto.ExerciseBlockDtoTest" time="0.037"/>
+  <testcase name="should deserialize ExerciseBlockDto from JSON()" classname="com.ace.shared.dto.ExerciseBlockDtoTest" time="0.002"/>
   <testcase name="should handle missing schemaVersion with Gson default()" classname="com.ace.shared.dto.ExerciseBlockDtoTest" time="0.001"/>
   <testcase name="should serialize ExerciseBlockDto to JSON()" classname="com.ace.shared.dto.ExerciseBlockDtoTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
