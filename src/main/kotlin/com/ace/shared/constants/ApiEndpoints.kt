@@ -26,4 +26,13 @@ object ApiEndpoints {
     // User
     const val USER_PROFILE = "/api/user/profile"
     const val USER_STATS = "/api/user/stats"
+
+    // Agregar al object ApiEndpoints:
+
+// Stats
+const val STATS = "/api/stats"
+const val STATS_RECONCILE = "/api/stats/reconcile"
+
+// History
+const val HISTORY = "/api/history"
 }
