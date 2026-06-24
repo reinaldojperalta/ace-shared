@@ -9,19 +9,19 @@ object SyncConstants {
     /** Máximo de bloques por batch de sync */
     const val BATCH_MAX_SIZE = 20
 
-    /** Duración objetivo de un bloque en segundos (~5 minutos) */
-    const val BLOCK_DURATION_SECONDS = 300
+    /** Duración objetivo de un bloque en segundos (~1 minuto) */
+    const val BLOCK_DURATION_SECONDS = 60
 
     /** Tolerancia de duración de bloque: ±10% */
     const val BLOCK_DURATION_TOLERANCE_PERCENT = 10
 
-    /** Duración mínima aceptable de un bloque (270s) */
+    /** Duración mínima aceptable de un bloque (10) */
     val BLOCK_MIN_DURATION: Int
-        get() = BLOCK_DURATION_SECONDS * (100 - BLOCK_DURATION_TOLERANCE_PERCENT) / 100
+        get() = BLOCK_DURATION_SECONDS * (10 - BLOCK_DURATION_TOLERANCE_PERCENT) / 100
 
-    /** Duración máxima aceptable de un bloque (330s) */
+    /** Duración máxima aceptable de un bloque (500s) */
     val BLOCK_MAX_DURATION: Int
-        get() = BLOCK_DURATION_SECONDS * (100 + BLOCK_DURATION_TOLERANCE_PERCENT) / 100
+        get() = BLOCK_DURATION_SECONDS * (500 + BLOCK_DURATION_TOLERANCE_PERCENT) / 100
 
     /** Delay inicial de reintento (15 minutos en millis) */
     const val RETRY_DELAY_INITIAL_MS = 15L * 60L * 1000L

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ace.shared.constants.ConstantsValidationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-06-24T00:36:26" hostname="LAPTOP-6LQPP2A5" time="0.067">
+<testsuite name="com.ace.shared.constants.ConstantsValidationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-06-24T15:39:52" hostname="LAPTOP-6LQPP2A5" time="0.074">
   <properties/>
-  <testcase name="should have valid block duration constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.051"/>
-  <testcase name="should have valid auth token TTLs()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.0"/>
+  <testcase name="should have valid block duration constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.013"/>
+  <testcase name="should have valid auth token TTLs()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.047"/>
   <testcase name="should have valid retry constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.001"/>
   <testcase name="should have valid data layer paths()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.006"/>
   <testcase name="should have valid API endpoints()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.001"/>
   <testcase name="should have valid history constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.0"/>
-  <testcase name="should have valid streak constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.001"/>
+  <testcase name="should have valid streak constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.0"/>
   <testcase name="should have valid ranking constants()" classname="com.ace.shared.constants.ConstantsValidationTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

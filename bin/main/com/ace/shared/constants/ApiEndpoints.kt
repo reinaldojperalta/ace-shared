@@ -14,7 +14,7 @@ object ApiEndpoints {
     const val AUTH_LOGOUT = "/api/auth/logout"
 
     // Exercise
-    const val EXERCISE_BLOCKS = "/api/exercise/blocks"
+    const val EXERCISE_BLOCKS = "/api/exercise/batch"
 
     // XP / Gamification
     const val XP_FORMULAS = "/api/xp/formulas"
